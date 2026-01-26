@@ -1,1 +1,1 @@
-java -jar /usr/share/jenkins/jenkins.war --httpPort=8080 --disableSecurity
+docker exec <container_id> cat /var/jenkins_home/secrets/initialAdminPassword
