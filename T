@@ -1,0 +1,4 @@
+sudo wg-quick down wg0 && sudo wg-quick up wg0
+ifconfig wg0
+ping -c 5 192.168.9.1
+ping -c 5 app1.supnum.lab
